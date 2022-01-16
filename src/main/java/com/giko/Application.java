@@ -8,10 +8,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EntityScan("com.giko")
 @EnableJpaRepositories("com.giko")
-public class TaskManagerBackendApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(TaskManagerBackendApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
